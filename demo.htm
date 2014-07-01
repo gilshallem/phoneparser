@@ -1,0 +1,26 @@
+<html>
+<head>
+<script language="javascript" type="text/javascript" src="phoneparser.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+</head>
+
+<body>
+<h2>Phone Parser Demo</h2>
+Github: <a href="https://github.com/Gilshallem/phoneparser">Link</a><br> 
+Enter a number (without +):<input type="text" id="number" /><input type="button" id="btn" value="Click to parse"><br>
+<h2>Results</h2>
+<hr>
+<div id="results"></div>
+
+<script language="javascript" type="text/javascript">
+	$("#btn").click(function() {
+   $("#results").html(JSON.stringify(
+   parsePhone($("#number").val())
+   ));
+});
+
+
+
+</script>
+</body>
+</html>
