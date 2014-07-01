@@ -4,7 +4,7 @@ PhoneParser
 A very simple to use library that parse phone numbers into country code, area code, and number.
 It uses libphonenumber.
 
-Here is a demo: https://rawgit.com/Gilshallem/phoneparser/master/demo.html
+Here is a demo: https://rawgit.com/Gilshallem/phoneparser/master/demo.htm
 
 Usage
 ========
