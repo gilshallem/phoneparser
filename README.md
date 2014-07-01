@@ -8,7 +8,10 @@ Here is a demo: https://rawgit.com/Gilshallem/phoneparser/master/demo.htm
 
 Usage
 ========
-Simply , just link the js file to your page.
+1. Download phoneparser.js
+2. Link the js file to your html or any other type of project.
+
+Thats it!
 
 
 Example
