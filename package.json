@@ -1,6 +1,6 @@
 {
   "name": "phoneparser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Parse a given string to check if it is a valid phone number, and parse it to revela the country code, area code, and the number.",
   "main": "index.js",
   "scripts": {
